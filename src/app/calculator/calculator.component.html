@@ -4,8 +4,7 @@
 
   <div class="calculator-keys">
 
-    <button type="button" (keypress)="onKeypress($event)" (click)="getOperation('+')" class="operator add"
-      value="+">+</button>
+    <button type="button" (click)="getOperation('+')" class="operator add" value="+">+</button>
     <button type="button" (click)="getOperation('-')" class="operator" value="-">-</button>
     <button type="button" (click)="getOperation('*')" class="operator" value="*">&times;</button>
     <button type="button" (click)="getOperation('/')" class="operator" value="/">&divide;</button>
